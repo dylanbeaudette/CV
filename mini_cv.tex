@@ -1,0 +1,127 @@
+% cv-us.tex
+%
+% Jason R. Blevins - Curriculum Vitae
+%
+% Copyright (C) 2004-2005 Jason Blevins <jrb11@duke.edu>
+%
+%%---------------------------------------------------------------------------
+%
+% Notes:
+%
+% * To create a new page use
+%   \newpage \opening
+%
+% * res.cls includes an \address{} command which can be used up to twice,
+%   but my address is too long for the format it uses.
+%
+% * Alternate documentclass command:
+%   \documentclass[margin,line,11pt,final]{res}
+%
+% * When publication/presentation list gets longer, divide into subsections
+%   by year like this:
+%   \section{\bf\small\hspace{8mm}2005}
+%
+%%----------------------------------------------------------------------------
+
+% some CV tips
+% http://www.cvtips.com/
+% 
+
+% \documentclass[overlapped,line,draft,11pt,letterpaper]{res}
+\documentclass[overlapped,line,10pt,letterpaper]{res}
+\usepackage{hyperref}
+% \usepackage{fullpage}
+
+
+% 
+% SVN integration
+% 
+\usepackage{svnkw}
+
+
+\hypersetup{
+  colorlinks,urlcolor=black,
+  pdftitle={Dylan E. Beaudette: Curriculum Vitae},
+  pdfauthor={Dylan E. Beaudette},
+  pdfcreator={\LaTeX\ with package \flqq hyperref\frqq},
+  pdfsubject={Curriculum Vitae},
+  pdfkeywords={soil pedology terrain analysis landscape modeling energy budget flux pedogenesis geomorphology}
+}
+
+\def\Cplusplus{{\rm C\raise.5ex\hbox{\small ++}}}
+
+%%===========================================================================%%
+
+
+
+\begin{document}
+
+
+
+
+\name{Dylan E. Beaudette \hspace{6.43cm} USDA-NRCS Soil Scientist}
+
+\begin{resume}
+
+%---------------------------------------------------------------------------
+
+\section{\bf Education}
+\textbf{Ph.D } Soils \& Biogeochemistry, June 2011\\
+University of California at Davis, Davis, CA, USA\\
+\textbf{M.S.} Soils \& Biogeochemistry, March 2008\\
+University of California at Davis, Davis, CA, USA\\
+\textbf{B.S.} Environmental Resource Science, June 2004\\
+University of California at Davis, Davis, CA, USA
+
+%---------------------------------------------------------------------------
+
+\section{\bf Research}
+
+\begin{format}
+\employer{l}\location{r}\\
+\title{l}\dates{r}\\
+\body\\
+\end{format}
+
+
+\employer{UC Davis\\Dept. Land, Air, Water Resources}
+\title{Graduate Student Researcher (Ph.D)}
+\location{Davis, CA, USA}
+\dates{September 2007 -- February 2011}
+\begin{position}
+Investigations related to within-map unit variability of soil physical and chemical properties, and dynamic soil properties. Investigations related to temporal variation in soil climate and landscape-scale microclimate via sensor networks. Development of a seamless, gridded soil property database of California. Evaluation of new approaches to field-based, mineral weathering experiments and their use in understanding the effects of long-term climate change on soil and ecosystem parameters. Development of scalable Soil Survey products based on modeled factors of soil formation. Investigations related to numerical classification of soil properties based on field-described morphology and laboratory characterization.
+\end{position}
+
+%------------------------------------------------------------------------------
+
+
+\section{\bf Selected Publications}
+S.E. Gatzke, D.E. Beaudette, D.L. Ficklin, A.T. O'Geen and M. Zhang. 2010. {\em Refining the Concept of Soil Type using Soil Taxonomy in SSURGO for Hydrologic Models.} Soil Science Society of America Journal. (in press).
+
+D.E. Beaudette and A.T. O'Geen. 2010. {\em An iPhone application for on demand access to digital soil survey information.} Soil Sci. Soc. Am. J. 74:1682-1684. (doi: 10.2136/sssaj2010.0144N)
+
+D.E. Beaudette, and A.T. O'Geen. 2009. {\em Quantifying the Aspect Effect: An Application of Solar Radiation Modeling for Soil Survey}. Soil Sci. Soc. Am. J. 73: 1345-1352. (doi: 10.2136/sssaj2008.0229)
+
+A.T. Chow, S. Lee, A.T. O'Geen, T. Orozco, D.E. Beaudette, P. Wong, P.J. Hernes, K.W. Tate, and R.A. Dahlgren. 2009. {\em Litter Contributions to Dissolved Organic Matter and Disinfection Byproduct Precursors in California Oak Woodland Watersheds}. Journal of Env. Quality 38: 2334-2343. (doi: 10.2134/jeq2008.0394)
+
+\section{\bf Grants}
+
+\begin{itemize}
+\item 2008 Kearney Mission \textit{on} Spatial and Temporal Scaling. (Co-Author) \\
+Proposal title: \textit{Development of soil property aggregation techniques for spatially distributed watershed models.} 
+University of California at Davis, 2008-2009. (\$86,000)
+
+\item 2007 Kearney Mission \textit{on} Spatial and Temporal Scaling. (Lead Author) \\
+Proposal title: \textit{A Multi-Scale Framework for Extending the Application of Digital Soil Survey Products.} 
+University of California at Davis, 2007-2009. (\$86,000)
+
+\item 2006 Kearney Mission \textit{on} Spatial and Temporal Scaling. (Lead Author) \\
+Proposal title: \textit{Upscaling and Downscaling Soil Survey: Creation and Analysis of New Multi-Scale Products.} 
+University of California at Davis, 2006-2007. (\$43,000)
+\end{itemize}
+
+\end{resume}
+
+\end{document}
+
+
